@@ -1,0 +1,14 @@
+N_blocks 100                #Number of blocks for Monte Carlo evaluation of integral
+N_steps 2000                #Number of steps for Monte Carlo evaluation of integral
+N_e 200                     #Burn-in steps
+alpha 0.85                  #T progression coefficient (T'=alpha T)
+B 60                        #Number of T values considered
+R 20                        #Number of external Metropolis steps for each T value 
+delta_out 0.5              #delta for external Metropolis (parameters optimization)
+delta_in 2.3              #delta for internal Metropolis (wave function sampling)
+# Initial values:
+x_0 0.                        #starting point for Metropolis sampling of wave function
+sigma_0 1.                  #starting value for sigma parameter
+mu_0    1.5                  #starting value for mu parameter
+T_0     2.0                 #starting value for T
+END

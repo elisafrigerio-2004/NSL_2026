@@ -1,0 +1,18 @@
+#Map settings
+N_cities 34                              #Number of cities 
+Cities_on_circle 1                       #1 cities on circumference, 0 cities in square
+#Population settings 
+Pop_size 200                            #Population size 
+N_gen 500                              #Number of generations
+#Genetic algorithm parameters
+P_m 0.1                                 #Mutation probability
+P_x 0.8                                #Crossover probability
+sel_p 5.0                               #exponent for individuals selection
+#Mutation shares: must be S_W+S_R+S_P+S_S=1
+S_W 0.05                                 # Share of swap mutation
+S_R 0.5                                # Share of reverse mutation 
+S_P 0.05                               # Share of permutate mutation
+S_S 0.4                               # Share of shift mutation 
+
+
+END
